@@ -5,12 +5,11 @@
     android:layout_height="match_parent"
     tools:context=".BioFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <EditText
-        android:id="@+id/etBio"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+    <TextView
+        android:id="@+id/tvContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
 
     <Button
         android:id="@+id/btnEdit"
@@ -18,5 +17,4 @@
         android:layout_height="wrap_content"
         android:layout_gravity="start|bottom"
         android:text="Edit" />
-
 </FrameLayout>
